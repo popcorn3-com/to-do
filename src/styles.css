@@ -13,12 +13,14 @@ input {
 }
 button {
   border-radius: 999em;
-  border: none;
+  border: 1px solid #666;
   padding: 4px 16px;
+  background-color: #666;
+  color: #fff;
 }
 button:hover {
-  background-color: #ff7fff;
-  color: #fff;
+  background-color: #ffffff;
+  color: #666;
   cursor: pointer;
 }
 .input-area,
@@ -33,7 +35,7 @@ button:hover {
   background-color: #c1ffff;
 }
 .incomplete-area {
-  background-color: #c6ffe2;
+  background-color: #f9face;
 }
 .complete-area {
   background-color: #eee;
@@ -53,7 +55,7 @@ button:hover {
   align-items: center;
   justify-content: space-between;
   margin: 0;
-  padding: 2px 0;
+  padding: 5px 0;
 }
 .button-box {
 }
