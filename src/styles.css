@@ -46,11 +46,11 @@ button:hover {
   font-weight: bold;
   color: #666;
 }
-.list-low {
+.list {
   margin: 0;
   padding: 0 20px;
 }
-.list-low li {
+.list li {
   display: flex;
   align-items: center;
   justify-content: space-between;
