@@ -46,16 +46,16 @@ button:hover {
   font-weight: bold;
   color: #666;
 }
-.list {
+.to-do-list {
   margin: 0;
   padding: 0 20px;
 }
-.list li {
+.list-item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin: 0;
   padding: 5px 0;
 }
-.button-box {
+.list-item p {
+  width: 220px;
 }
